@@ -1,0 +1,115 @@
+#board {
+  border-collapse: collapse;
+  margin: 0 auto;
+  
+}
+.title{
+  color : #FFFFE8;
+}
+
+#board td {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  border: 5px solid #fff;
+  color: white; 
+}
+
+.player-x {
+  color: #f00;
+}
+
+.player-o {
+  color: #00f;
+}
+body {
+  background-color: #84D2C5;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  font-size: 30px;
+}
+
+.player-x::before {
+  content: "X";
+}
+
+.player-o::before {
+  content: "O";
+}
+
+.player-x, .player-o {
+  color: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.player-x {
+  background-color: #f00;
+}
+
+.player-o {
+  background-color: #00f;
+}
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+#board  #cell-0 {
+  border-top: none;
+  border-left: none;
+}
+#board #cell-1{
+  border-top: none;
+}
+#board #cell-2{
+  border-top: none;
+  border-right: none
+}
+#board #cell-3{
+  border-left:none;
+}
+#board #cell-5{
+  border-right:none;
+}
+#board #cell-6{
+  border-bottom: none;
+  border-left: none;
+}
+#board #cell-7{
+  border-bottom: none;
+}
+#board #cell-8{
+  border-bottom: none;
+  border-right: none;
+}
+
+@media only screen and (max-width: 600px) {
+  table {
+    width: 50%;
+  }
+
+  td {
+    width: 40%;
+    height: 40%;
+    font-size: 25px;
+  }
+}
